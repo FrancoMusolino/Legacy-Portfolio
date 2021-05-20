@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title>Personal portfolio | Franco Musolino</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">Franco</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+
+                <ul class="nav__list">
+
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME ícono=====-->
+        <section class="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="./img/avatar.png" alt="Avatar">
+                    </div>
+                    <h1 class="home__title">Franco Musolino</h1>
+                    <span class="home__profession">Desarrollador Front-End</span>
+                    <div class="home__social">
+                        <a href="./html/ln.html" target="_blank" class="home__social-link"><i
+                                class="bx bxl-linkedin"></i></a>
+                        <a href="https://github.com/FrancoMusolino" target="_blank" class="home__social-link"><i
+                                class="bx bxl-github"></i></a>
+                        <a href="https://mail.google.com/mail/u/0/?fs=1&to=francomusolino.dev@gmail.com&tf=cm"
+                            target="_blank" class="home__social-link"><i class="bx bx-envelope"></i></a>
+                    </div>
+                    <a href="./CV - Franco Emanuel Musolino.pdf" target="_blank" class="button home__button">Descargar
+                        CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <span class="section-subtitle">My intro</span>
+            <h2 class="section-title">Sobre mí</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">Hola!! Soy un estudiante apasionado por la creación y el desarrollo en
+                        la web. En estos últimos meses, me he dedicado al estudio y la práctica sobre esta área de
+                        trabajo, con una gran cantidad de proyectos</p>
+                    <img src="./img/logo.png" alt="Logo" class="about__img">
+                </div>
+
+                <div>
+                    <div class="about__information">
+                        <h3 class="about__information-title">Información</h3>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-user about__information-icon"></i>
+                            <span>Franco Musolino</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-phone about__information-icon"></i>
+                            <span>+54 9 1127175690</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-envelope about__information-icon"></i>
+                            <span>francomusolino.dev@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="about__information">
+                        <h3 class="about__information-title">Experiencia y apoyo</h3>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-medal about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">Un Año</span>
+                                <span class="about__information-subtitle-small">Aprendiendo</span>
+                            </div>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-briefcase about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">10+ Projects</span>
+                                <span class="about__information-subtitle-small">Completos</span>
+                            </div>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-microphone about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">Inglés</span>
+                                <span class="about__information-subtitle-small">B2</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <span class="section-subtitle">¿Por qué elegirme?</span>
+            <h2 class="section-title">Mi experiencia en el área</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Front-End</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Html/css</span>
+                        <span class="skills__number">90%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">JavaScript</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__js"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Tailwind/Bootstrap</span>
+                        <span class="skills__number">65%</span>
+                        <span class="skills__bar skills__tailwind"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Git/GitHub</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__git"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== SERVICES Refactorización de código, desarrollo vainilla, frameworks, Manejo de APIs=====-->
+        <section class="services section" id="services">
+            <span class="section-subtitle">Que ofrezco</span>
+            <h2 class="section-title">Mis servicios</h2>
+
+            <div class="services__container bd-grid">
+                <div class="services__content">
+                    <i class="bx bx-brush services__icon"></i>
+                    <h3 class="services__title">Refactorización de código</h3>
+                    <p class="services__description">Reconstrucción y limpieza de código para mejorar la facilidad de
+                        comprensión y mantenimiento del mismo</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-code services__icon"></i>
+                    <h3 class="services__title">Desarollo vanilla</h3>
+                    <p class="services__description">Desarrollo de código por medio de lenguajes puros HTML, Css y
+                        JavaScript</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-book-alt services__icon"></i>
+                    <h3 class="services__title">Frameworks</h3>
+                    <p class="services__description">Uso de las librerías Tailwind, Bootstrapt y ReactJs para lograr un
+                        mejor desarrollo del proyecto</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-data services__icon"></i>
+                    <h3 class="services__title">Manejo de APIs</h3>
+                    <p class="services__description">Consumir distintos tipos de APIs para hacer proyectos dinámicos</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORKS =====-->
+        <section class="works section" id="works">
+            <span class="section-subtitle">Mi Portfolio</span>
+            <h2 class="section-title">Trabajos Recientes</h2>
+
+            <div class="works__container bd-grid">
+                <div class="works__img">
+                    <img src="./img/work1.png" alt="work 1">
+
+                    <div class="works__data">
+                        <a href="https://restaurant-website-gamma.vercel.app/" target="_blank" class="works__link"><i
+                                class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Work 1</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="./img/work2.png" alt="work 2">
+
+                    <div class="works__data">
+                        <a href="https://carrito-de-compras-alpha.vercel.app/" target="_blank" class="works__link"><i
+                                class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Work 2</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="./img/work3.png" alt="work 3">
+
+                    <div class="works__data">
+                        <a href="https://prueba-git2-31fht54p6-francomusolino.vercel.app/Landing%20page.html"
+                            target="_blank" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Work 3</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="./img/work4.png" alt="work 4">
+
+                    <div class="works__data">
+                        <a href="https://search-people.vercel.app/" target="_blank" class="works__link"><i
+                                class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Work 4</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Mi contacto</h2>
+
+            <div class="contact__container bd-grid">
+                <div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Call me</h3>
+                        <span class="contact__text">+54 9 1127175690</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">E-mail</h3>
+                        <span class="contact__text">francomusolino.dev@gmail.com</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Localidad</h3>
+                        <span class="contact__text">Ciudad Autónoma de Buenos Aires, Argentina</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <h1 class="footer__title">Franco</h1>
+            <p class="footer__description">Soy Franco Musolino. <br> Y este es mi sitio web personal</p>
+
+            <p class="footer__copy">Realizado en Mayo del 2021</p>
+        </div>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
