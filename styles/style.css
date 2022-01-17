@@ -71,6 +71,7 @@ body{
     background-color: var(--first-color-lighten);
     color: var(--text-color);
     line-height: 1.6;
+    -webkit-tap-highlight-color: transparent;
 }
 
 h1, h2, h3,p{
@@ -379,7 +380,11 @@ img{
 }
 
 .skills__js{
-    width: 70%;
+    width: 80%;
+}
+
+.skills__react{
+    width: 75%;
 }
 
 .skills__tailwind{
@@ -460,7 +465,6 @@ img{
     align-items: center;
     background: var(--first-color-dark);
     opacity: .8;
-    cursor: pointer;
     border-radius: .5rem;
     transition: .3s;
 }
@@ -478,6 +482,15 @@ img{
 .works__title{
     font-size: var(--h2-font-size);
     color: var(--first-color-lighten);
+    opacity: .8;
+    cursor: pointer;
+    user-select: none;
+}
+
+.works__title:hover{
+    color: #ffffff;
+    opacity: 1;
+    transition: all .3s linear;
 }
 
 .works__img:hover .works__data{
@@ -524,6 +537,35 @@ img{
     font-size: var(--smaller-font-size);
     color: var(--first-color-light);
 }
+
+.scroll-top{
+    position: fixed;
+    right: 1.3rem;
+    padding: .4rem;
+    height: 40px;
+    width: 40px;
+    background: var(--first-color);
+    border: solid 3px var(--first-color-dark);
+    border-radius: 50%;
+    z-index: 1000;
+    transition: .4s;
+    visibility: hidden;
+    cursor: pointer;
+    bottom: -20%;
+  }
+
+  .fa-chevron-up{
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .show-scroll{
+    visibility: visible;
+    bottom: 1.5rem;
+  }
 
 
 /* ===== MEDIA QUERIES=====*/

@@ -43,3 +43,20 @@ function scrollActive() {
     })
 }
 
+/*=== SCROLL TO TOP BUTTON ===*/
+
+let scrollButton = document.querySelector('.scroll-top');
+let screenHeigth = window.screen.height - 150;
+
+
+const detectarScroll = () => {
+    const scrollY = window.pageYOffset;
+
+    if (scrollY > screenHeigth) {
+        scrollButton.classList.add('show-scroll');
+    } else {
+        scrollButton.classList.remove('show-scroll');
+    }
+}
+
+window.addEventListener('scroll', detectarScroll);
