@@ -59,9 +59,12 @@
     box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
-}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+    html{
+        scroll-behavior: smooth;
+    }
+ }
 
 body{
     margin: var(--header-height) 0 0 0;
@@ -380,19 +383,23 @@ img{
 }
 
 .skills__js{
-    width: 80%;
+    width: 85%;
 }
 
 .skills__react{
-    width: 75%;
+    width: 80%;
 }
 
 .skills__tailwind{
-    width: 65%;
+    width: 85%;
+}
+
+.skills__sass{
+    width: 70%;
 }
 
 .skills__git{
-    width: 80%;
+    width: 85%;
 }
 
 /* ===== SERVICES =====*/
